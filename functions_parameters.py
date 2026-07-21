@@ -106,3 +106,23 @@ def city():
     return "Punjab"
 
 print(city())
+def add(a, b):
+    print(a + b)
+
+add(20, 30)
+def movie(name, year):
+    print(name)
+    print(year)
+
+movie("KGF", 2022)
+def multiply(x, y, z):
+    print(x * y * z)
+
+multiply(2, 5, 4)
+def details(name, age, college, city):
+    print(name)
+    print(age)
+    print(college)
+    print(city)
+
+details("Vanshika", 17, "SGGSWU", "Jalandhar")
