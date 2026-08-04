@@ -161,3 +161,45 @@ else:
     print("Result =", result)
 
 print("Thank You")
+try:
+    print(10 / 2)
+
+except:
+    print("Error")
+
+finally:
+    print("Program Finished")
+try:
+    print(10 / 0)
+
+except:
+    print("Cannot Divide")
+
+finally:
+    print("Program Finished")
+try:
+    num = int(input("Enter Number : "))
+    print(100 / num)
+
+except ZeroDivisionError:
+    print("Zero is not allowed")
+
+except ValueError:
+    print("Only numbers allowed")
+
+finally:
+    print("Thank You")
+try:
+    print("Python")
+
+finally:
+    print("AI")
+try:
+    print(10 / 0)
+
+except:
+    print("Error")
+
+finally:
+    print("Closing Program")
+    
